@@ -14,7 +14,6 @@ const Radio = () => {
           className="h-4 w-4 border-gray-300 focus:ring-2 focus:ring-blue-300"
           aria-labelledby="country-option-1"
           aria-describedby="country-option-1"
-          checked
         />
         <label
           htmlFor="country-option-1"

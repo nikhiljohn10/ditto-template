@@ -11,7 +11,6 @@ const CheckBoxes = () => {
           aria-describedby="checkbox-1"
           type="checkbox"
           className="bg-gray-50 border-gray-300 focus:ring-3 focus:ring-blue-300 h-4 w-4 rounded"
-          checked
         />
         <label
           htmlFor="checkbox-1"
