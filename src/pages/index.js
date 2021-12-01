@@ -32,6 +32,7 @@ import Card2 from "@component/cards/Card2";
 import Navbar from "@component/navbar/Navbar";
 import Sidebar from "@component/sidebar/Sidebar";
 import Navbar2 from "@component/navbar/Navbar2";
+import PlaceHolder from "@component/placeholder/PlaceHolder";
 
 export default function Home() {
   return (
@@ -192,6 +193,11 @@ export default function Home() {
         <div className="py-8">
           <h2 className="text-lg font-medium mb-4">Accordion</h2>
           <Accordion />
+        </div>
+
+        <div className="py-8">
+          <h2 className="text-lg font-medium mb-4">Placeholder</h2>
+          <PlaceHolder />
         </div>
       </main>
 
